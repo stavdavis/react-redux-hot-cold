@@ -1,5 +1,5 @@
 import {createStore} from 'redux'
 
-import {trelloReducer} from './reducers';
+import {hotColdReducer} from './reducers';
 
-export default createStore(trelloReducer);
+export default createStore(hotColdReducer);
